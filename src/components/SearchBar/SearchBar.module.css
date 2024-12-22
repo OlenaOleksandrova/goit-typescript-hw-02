@@ -1,12 +1,11 @@
 header{
     background-color: rgb(91, 91, 156);
     width: 100%;
-   
-
 }
 input {
     margin-right: 10px;
     width: 500px;
+    height: 30px;
     
 }
 button {
@@ -25,5 +24,5 @@ button {
     justify-content: center;
     text-align: center;
     align-items: center;
-    padding: 10px 20px;
+    padding: 30px 40px;
 }
