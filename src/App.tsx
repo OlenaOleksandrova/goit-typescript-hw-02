@@ -186,7 +186,9 @@ const App: React.FC = () => {
       {isLoading && <Loader />}
       {isError && <h2>Упс, щось сталось! Оновіть сторінку...</h2>}
       {chooseImage && (
-        <ImageModal modalIsOpen={modalIsOpen} onRequestClose={closeModal} image={chooseImage} />
+        <ImageModal modalIsOpen={modalIsOpen}
+          onRequestClose={closeModal}
+          image={chooseImage} />
       )}
     </div>
   );
