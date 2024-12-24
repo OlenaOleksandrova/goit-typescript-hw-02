@@ -64,18 +64,15 @@ import Modal from "react-modal";
 
 Modal.setAppElement("#root");
 
-type Image = {
-  // urls: {
-  //   regular: string;
-  // };
-  // description?: string;
-  d: string;
+
+ 
+ type Image = {
+  id: string;
   urls: {
     small: string;
-    regular?: string;
+    regular: string; //  змінла
   };
   alt_description?: string;
-  description?: string;
 };
 
 type ImageModalProps = {

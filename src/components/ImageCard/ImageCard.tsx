@@ -12,7 +12,7 @@ type Image = {
   id: string;
   urls: {
     small: string;
-    regular?: string;
+    regular: string; // змінила
   };
   alt_description?: string;
 };
