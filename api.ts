@@ -3,7 +3,7 @@ import axios from "axios";
 const ACCESS_KEY = '-EZGxItXGBUZ2lHczGywRuqelpVOrp-EJ7U9PkvOtxM'; 
 const BASE_URL = 'https://api.unsplash.com';
 
-export type Image = {
+type Image = {
   id: string;
   urls: {
     small: string;
@@ -13,7 +13,7 @@ export type Image = {
   description?: string;
 };
 
-export type FetchImagesResponse = {
+ type FetchImagesResponse = {
   results: Image[];
   totalPages: number;
 };
