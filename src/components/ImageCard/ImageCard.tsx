@@ -9,6 +9,7 @@ import s from "./ImageCard.module.css"
 // }
 // export default ImageCard
 type Image = {
+  id: string;
   urls: {
     small: string;
   };
