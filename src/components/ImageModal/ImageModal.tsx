@@ -72,7 +72,8 @@ Modal.setAppElement("#root");
     small: string;
     regular: string; //  змінла
   };
-  alt_description?: string;
+   alt_description?: string;
+   description?: string;
 };
 
 type ImageModalProps = {
