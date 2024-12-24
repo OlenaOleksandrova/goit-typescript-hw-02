@@ -9,16 +9,17 @@ import s from "./ImageCard.module.css"
 // }
 // export default ImageCard
 type Image = {
-  // id: string;
-  // urls: {
-  //   small: string;
-  //   regular?: string;
-  // };
-  // alt_description?: string;
+id: string;
   urls: {
+    small: string;
     regular: string;
   };
-  description?: string;
+  alt_description?: string;
+  //   urls: {
+  //     regular: string;
+  //   };
+  //   description?: string;
+  // };
 };
 
 type ImageCardProps = {
