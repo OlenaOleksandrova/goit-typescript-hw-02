@@ -32,7 +32,7 @@ export const fetchImages = async (
   });
 
  return {
-    results: response.data.results,
+    results: response.data.result,
     totalPages: response.data.total_pages,
   };
   };
