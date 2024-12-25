@@ -10,6 +10,7 @@ export type Image = {
     regular: string; // змінила
   };
   alt_description?: string;
+  description?: string;
 };
 
 type FetchImagesResponse = {
